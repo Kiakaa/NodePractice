@@ -1,0 +1,26 @@
+Node.js 文件系统
+Node.js 提供一组类似 UNIX（POSIX）标准的文件操作API。 Node 导入文件系统模块(fs)语法如下所示：
+异步和同步
+Node.js 文件系统（fs 模块）模块中的方法均有异步和同步版本，例如读取文件内容的函数有异步的 fs.readFile() 和同步的 fs.readFileSync()。
+异步的方法函数最后一个参数为回调函数，回调函数的第一个参数包含了错误信息(error)。
+建议大家是用异步方法，比起同步，异步方法性能更高，速度更快，而且没有阻塞
+
+以下为在异步模式下打开文件的语法格式：
+fs.open(path, flags[, mode], callback)
+以下为通过异步模式获取文件信息的语法格式：
+fs.stat(path, callback)
+以下为异步模式下写入文件的语法格式：
+fs.writeFile(file, data[, options], callback)
+
+截取文件
+语法
+以下为异步模式下截取文件的语法格式：
+fs.ftruncate(fd, len, callback)
+以下为删除文件的语法格式：
+fs.unlink(path, callback)
+以下为创建目录的语法格式：
+fs.mkdir(path[, mode], callback)
+以下为读取目录的语法格式：
+fs.readdir(path, callback)
+以下为删除目录的语法格式：
+fs.rmdir(path, callback)
