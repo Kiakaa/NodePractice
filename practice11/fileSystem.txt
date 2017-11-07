@@ -11,6 +11,10 @@ fs.open(path, flags[, mode], callback)
 fs.stat(path, callback)
 以下为异步模式下写入文件的语法格式：
 fs.writeFile(file, data[, options], callback)
+以下为异步模式下读取文件的语法格式：
+fs.read(fd, buffer, offset, length, position, callback)
+以下为异步模式下关闭文件的语法格式：
+fs.close(fd, callback)
 
 截取文件
 语法

@@ -5,7 +5,7 @@ function Base() {
     this.sayHello = function() { 
     console.log('Hello ' + this.name); 
     }; 
-} 
+}
 Base.prototype.showName = function() { 
     console.log(this.name);
 }; 
