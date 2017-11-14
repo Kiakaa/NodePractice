@@ -8,3 +8,5 @@
 * 新增 Express 框架
 * 新增 RESTful_API
 * 新增多线程
+ 
+![baidux](http://www.baidu.com/img/bdlogo.gif "百度logo")  
