@@ -1,0 +1,9 @@
+
+/*
+ 基于以上数据，我们创建以下 RESTful API：
+ 序号	URI	          HTTP 方法       发送内容	      结果
+ 1	listUsers       GET	            空               显示所有用户列表
+ 2	addUser     	POST	       JSON 字符串	      添加新用户
+ 3	deleteUser      DELETE	       JSON 字符串	      删除用户
+ 4	:id	            GET	            空	            显示用户详细信息
+ */
